@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rel_popup"
+    android:layout_margin="20dp"
+    android:background="@drawable/my_border"
+    android:orientation="vertical"
+    >
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Select Vehicle Damage State: "
+      android:textColor="#f00"
+      android:textSize="20sp"
+      android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+        <LinearLayout
+            android:id="@+id/frontdamage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/my_border"
+            android:orientation="vertical"
+            android:layout_weight="50">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fronte State: "
+                android:textColor="@color/yellow"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/front1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:text="Front1"
+                android:textColor="@color/yellow"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <CheckBox
+                android:id="@+id/front2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:checked="false"
+                android:text="Front2"
+                android:textColor="@color/yellow"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <CheckBox
+                android:id="@+id/front3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:checked="false"
+                android:text="Front3"
+                android:textColor="@color/yellow"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/backdamage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/my_border"
+            android:orientation="vertical"
+            android:layout_weight="50">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Back State: "
+                android:textColor="@color/yellow"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <CheckBox
+                android:id="@+id/back1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:text="Back1"
+                android:textColor="@color/yellow"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <CheckBox
+                android:id="@+id/back2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:checked="false"
+                android:text="Back2"
+                android:textColor="@color/yellow"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <CheckBox
+                android:id="@+id/back3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:checked="false"
+                android:text="Back3"
+                android:textColor="@color/yellow"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+        <LinearLayout
+            android:id="@+id/leftdamage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/my_border"
+            android:orientation="vertical"
+            android:layout_weight="50">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Left State: "
+                android:textColor="@color/yellow"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/left1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:text="Left1"
+                android:textColor="@color/yellow"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <CheckBox
+                android:id="@+id/left2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:checked="false"
+                android:text="Left2"
+                android:textColor="@color/yellow"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <CheckBox
+                android:id="@+id/left3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:checked="false"
+                android:text="Left3"
+                android:textColor="@color/yellow"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+            <CheckBox
+                android:id="@+id/left4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:checked="false"
+                android:text="Left4"
+                android:textColor="@color/yellow"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/rightdamage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/my_border"
+            android:orientation="vertical"
+            android:layout_weight="50">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Right State: "
+                android:textColor="@color/yellow"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <CheckBox
+                android:id="@+id/right1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:checked="false"
+                android:text="Right1"
+                android:textColor="@color/yellow"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <CheckBox
+                android:id="@+id/right2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:checked="false"
+                android:text="Right2"
+                android:textColor="@color/yellow"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <CheckBox
+                android:id="@+id/right3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:checked="false"
+                android:text="Right3"
+                android:textColor="@color/yellow"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+            <CheckBox
+                android:id="@+id/right4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:checked="false"
+                android:text="Right4"
+                android:textColor="@color/yellow"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/abovedamage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/my_border"
+        android:orientation="vertical"
+        android:layout_weight="50">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Above State: "
+            android:textColor="@color/yellow"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <CheckBox
+            android:id="@+id/above"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:text="Above"
+            android:textColor="@color/yellow"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_damage"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/my_border"
+        android:backgroundTint="@color/yellow"
+        android:text="@string/ok"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+
+
+
+
+</LinearLayout>

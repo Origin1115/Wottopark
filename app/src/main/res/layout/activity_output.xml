@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/print_me_out">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:weightSum="100"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_ticketnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="50"
+            android:background="@drawable/my_border"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:text="@string/ticketnumber"
+            android:textColor="@color/yellow" />
+
+        <TextView
+            android:id="@+id/txt_platenumber"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/plate_number"
+            android:textColor="@color/yellow"
+            android:textAlignment="center"
+            android:textSize="20dp"            android:background="@drawable/my_border"
+            android:layout_weight="50"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/my_border"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txt_pricename"
+            android:layout_width="match_parent"
+            android:background="@drawable/my_border"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:text="@string/tarifname"
+            android:textColor="@color/yellow"
+            android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/edt_fullname"
+            android:layout_width="match_parent"
+            android:background="@drawable/my_border"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:text="@string/fullname"
+            android:textColor="@color/yellow"
+            android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/edt_phonenumber"
+            android:layout_width="match_parent"
+            android:background="@drawable/my_border"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:text="@string/phone"
+            android:textColor="@color/yellow"
+            android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/edt_parkloc"
+            android:layout_width="match_parent"
+            android:background="@drawable/my_border"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:text="@string/parklocation"
+            android:textColor="@color/yellow"
+            android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/edt_cardkeynumber"
+            android:layout_width="match_parent"
+            android:background="@drawable/my_border"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:text="@string/cardkeynumber"
+            android:textColor="@color/yellow"
+            android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/edt_explain"
+            android:layout_width="match_parent"
+            android:background="@drawable/my_border"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:text="@string/explanation"
+            android:textColor="@color/yellow"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:weightSum="100"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@drawable/my_border"
+            android:layout_weight="50">
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:id="@+id/img_starttime"
+                android:background="@drawable/calendar_ic" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/lbl_starttime"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center"
+                    android:text="@string/starttime"
+                    android:textColor="@color/yellow" />
+                <TextView
+                    android:id="@+id/txt_starttime"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center"
+                    android:text="2022-08-30 06:06"
+                    android:textColor="@color/yellow" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/my_border"
+            android:layout_weight="50">
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="5dp"
+                android:gravity="center"
+                android:id="@+id/img_endtime"
+                android:background="@drawable/calendar_ic" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/lbl_endtime"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center"
+
+                    android:text="@string/endtime"
+                    android:textColor="@color/yellow" />
+                <TextView
+                    android:id="@+id/txt_endtime"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/yellow" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:weightSum="100"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@drawable/my_border"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="50">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="5dp"
+                android:gravity="center"
+                android:id="@+id/img_totaltime"
+                android:src="@drawable/clock_ic" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/lbl_totaltime"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center"
+                    android:text="@string/totoltime"
+                    android:textColor="@color/yellow" />
+                <TextView
+                    android:id="@+id/txt_totaltime"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+
+                    android:gravity="center"
+                    android:text="156:06"
+                    android:textColor="@color/yellow" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/my_border"
+            android:layout_weight="50">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="5dp"
+                android:gravity="center"
+                android:id="@+id/img_price"
+                android:src="@drawable/money_ic" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/lbl_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+
+
+                    android:gravity="center"
+
+                    android:text="@string/price"
+                    android:textColor="@color/yellow" />
+                <TextView
+                    android:id="@+id/txt_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+
+                    android:gravity="center"
+                    android:text="$200"
+                    android:textColor="@color/yellow" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:id="@+id/btn_complete"
+        app:backgroundTint="@color/yellow"
+        android:textColor="@color/white"
+        android:text="@string/complete"
+        android:background="@drawable/my_border"/>
+
+</LinearLayout>

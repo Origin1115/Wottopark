@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/pop_parklist"
+    android:background="@drawable/my_border"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:background="@drawable/my_border"
+        android:layout_margin="10dip">
+
+        <!-- Text Label -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/parklist"
+            android:layout_margin="10dp"
+            android:textColor="@color/yellow" />
+
+        <!-- Spinner Element -->
+        <Spinner
+            android:id="@+id/spinner_parklist"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_parklist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/my_border"
+        android:backgroundTint="@color/yellow"
+        android:text="@string/ok" />
+
+</RelativeLayout>

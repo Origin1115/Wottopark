@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/print_me_in"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/my_border"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:visibility="gone"
+            android:src="@drawable/email" />
+
+        <TextView
+            android:id="@+id/tarifei"
+            android:layout_width="match_parent"
+            android:background="@null"
+            android:text="@string/tarifei"
+            android:textColor="@color/yellow"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/my_border"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:gravity="center"
+            android:src="@drawable/pencil" />
+
+        <EditText
+            android:id="@+id/edt_platenumber"
+            android:layout_width="match_parent"
+            android:background="@null"
+            android:hint="@string/platenumber"
+            android:textColor="@color/yellow"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/my_border"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:gravity="center"
+            android:src="@drawable/pencil" />
+
+        <EditText
+            android:id="@+id/edt_surname"
+            android:layout_width="match_parent"
+            android:background="@null"
+            android:hint="@string/surname"
+            android:textColor="@color/yellow"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/my_border"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:gravity="center"
+            android:src="@drawable/pencil" />
+
+        <EditText
+            android:id="@+id/edt_telephone"
+            android:layout_width="match_parent"
+            android:background="@null"
+            android:hint="@string/telephone"
+            android:textColor="@color/yellow"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/my_border"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:gravity="center"
+            android:src="@drawable/pencil" />
+
+        <EditText
+            android:id="@+id/edt_parklocation"
+            android:layout_width="match_parent"
+            android:background="@null"
+            android:hint="@string/parklocation"
+            android:textColor="@color/yellow"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/my_border"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:gravity="center"
+            android:src="@drawable/pencil" />
+
+        <EditText
+            android:id="@+id/edt_cardkey"
+            android:layout_width="match_parent"
+            android:background="@null"
+            android:hint="@string/cardkeynumber"
+            android:textColor="@color/yellow"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+
+        android:weightSum="100"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_vehicleinformation"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="50"
+            android:gravity="center"
+            android:background="@drawable/my_border"
+            android:text="@string/vehicleinformation"
+            android:textColor="@color/yellow" />
+
+        <Button
+            android:id="@+id/btn_vehicledamage"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:text="@string/vehicledamage"
+            android:textColor="@color/yellow"
+            android:gravity="center"
+            android:background="@drawable/my_border"
+            android:layout_weight="50"
+             />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/my_border"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:gravity="center"
+            android:src="@drawable/pencil" />
+
+        <EditText
+            android:id="@+id/edt_explain"
+            android:layout_width="match_parent"
+            android:background="@null"
+            android:hint="@string/explanation"
+            android:textColor="@color/yellow"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/btn_complete"
+        app:backgroundTint="@color/yellow"
+        android:textColor="@color/white"
+        android:text="@string/complete"
+        android:background="@drawable/my_border"/>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">WOTTOPARK</string>
+
+    <string name="login">LOG IN</string>
+    <string name="signup">SIGN UP</string>
+    <string name="alredyhave">Have You Account Already?</string>
+    <string name="nothave">Don\'t Have Account?</string>
+    <string name="forgotpass">Forgot Password?</string>
+    <string name="in">IN</string>
+    <string name="out">OUT</string>
+    <string name="tarifei">TARIFEI</string>
+    <string name="platenumber">Lisence Plate Number</string>
+    <string name="surname">Name Surname</string>
+    <string name="telephone">TelePhone Number</string>
+    <string name="parklocation">Park Location</string>
+    <string name="cardkeynumber">Card-Key Number</string>
+    <string name="vehicleinformation">VEHICLE INFORMATION</string>
+    <string name="vehicledamage">VEHICLE DAMAGE STATUS</string>
+    <string name="explanation">Explanation</string>
+    <string name="complete">COMPLETE</string>
+    <string name="ticketnumber">Ticker Number</string>
+    <string name="plate_number">Plate Number</string>
+    <string name="tarifname">Tarif Name</string>
+    <string name="fullname">Full Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="phone">Phone Number</string>
+    <string name="starttime">Start Time</string>
+    <string name="endtime">End Time</string>
+    <string name="search">Search</string>
+    <string name="totoltime">Total Time</string>
+    <string name="price">Price</string>
+    <string name="vehiclebrand">Vehicle Brand</string>
+    <string name="vehiclemodel">Vehicle Model</string>
+    <string name="vehiclecolor">Vehicle Color</string>
+    <string name="ok">OK</string>
+    <string name="choose">Choose</string>
+    <string name="parklist">Select Park</string>
+    <string name="spinner_title">Park Name</string>
+    <string name="devicename">Device Name</string>
+    <string name="devicebrand">Device Brand</string>
+    <string name="devicemodel">Device Model</string>
+    <string name="imeinumber">Android ID</string>
+    <string name="serialnumber">Serial NUmber</string>
+    <string name="companyid">Company ID</string>
+    <string name="companyname">Company Name</string>
+
+    <string name="pricename">Price Select</string>
+    <string name="allparked">All Parked</string>
+    <string name="readplate">Plate Read</string>
+
+
+
+
+
+
+
+
+
+
+
+</resources>

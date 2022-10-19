@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/lin_mark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/img_webview"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/home_ic" />
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="center_horizontal"
+            android:text="OTTOPARK"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/in_out_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lin_mark"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="30dp">
+
+        <RelativeLayout
+            android:id="@+id/in_area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true">
+
+            <ImageButton
+                android:id="@+id/img_out"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:background="@drawable/in_icon" />
+
+            <TextView
+                android:id="@+id/txt_out"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_out"
+                android:layout_centerHorizontal="true"
+                android:text="@string/out"
+                android:textColor="@color/yellow"
+                android:textSize="25dp" />
+
+            <RelativeLayout
+                android:id="@+id/input_area"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/txt_out"
+                android:layout_marginTop="70dp">
+
+                <ImageButton
+                    android:id="@+id/img_key_out"
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/edit_ic" />
+
+                <ImageButton
+                    android:id="@+id/img_cam_out"
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/cam_icon" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/out_area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true">
+
+            <ImageButton
+                android:id="@+id/img_in"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:background="@drawable/out_icon" />
+
+            <TextView
+                android:id="@+id/txt_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_in"
+                android:layout_centerHorizontal="true"
+                android:text="@string/in"
+                android:textColor="@color/yellow"
+                android:textSize="25dp" />
+
+            <RelativeLayout
+                android:id="@+id/output_area"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/txt_in"
+                android:layout_marginTop="70dp">
+
+                <ImageButton
+                    android:id="@+id/img_key_in"
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/edit_ic" />
+
+                <ImageButton
+                    android:id="@+id/img_cam_in"
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/cam_icon" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/btn_allparked"
+        android:text="@string/allparked"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/yellow"/>
+
+
+
+</RelativeLayout>

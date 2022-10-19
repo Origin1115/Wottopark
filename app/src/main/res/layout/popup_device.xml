@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/imei_popup"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:background="@drawable/my_border"
+    >
+    <TextView
+        android:id="@+id/edt_devicename"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/devicename"
+        android:background="@drawable/my_border"
+        />
+    <TextView
+        android:id="@+id/edt_devicebrand"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/devicebrand"
+        android:background="@drawable/my_border"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/edt_devicemodel"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/devicemodel"
+        android:background="@drawable/my_border"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/edt_imeinumber"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/imeinumber"
+        android:background="@drawable/my_border"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/edt_serialnumber"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/serialnumber"
+        android:background="@drawable/my_border"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/edt_companyid"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/companyid"
+        android:background="@drawable/my_border"
+        android:gravity="center" />
+
+
+    <Button
+        android:id="@+id/btn_adddevice_ok"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/edt_imei"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/my_border"
+        android:backgroundTint="@color/yellow"
+        android:text="@string/ok"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+</LinearLayout>
